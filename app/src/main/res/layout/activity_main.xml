@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="50dp"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+
+        android:background="#00000000"
+        android:src="@drawable/logo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxt"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:hint="Usuário"
+        android:textColorHint="#FFFFFF"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/allfriends"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:background="@drawable/edttxt"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:hint="Senha"
+        android:textColorHint="#FFFFFF"
+        android:drawableLeft="@drawable/loginmain"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Entrar"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:onClick="btnEntrarClick"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Cadastrar"
+        android:background="#00000000"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:onClick="btnCadastroClick"
+        android:gravity="right"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+</LinearLayout>

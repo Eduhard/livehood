@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background6">
+
+    <TextView
+        android:id="@+id/txtPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="A Professora ditou o número mil quatrocentos e quinze. Qual das alternativas abaixo corresponde ao número ditado?"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/divisorlivro2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@android:color/transparent">
+
+        <ListView
+            android:id="@+id/lstRespostas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Continuar"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:onClick="btnContinuarClick"
+        android:id="@+id/button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+
+    </LinearLayout>
+
+</LinearLayout>

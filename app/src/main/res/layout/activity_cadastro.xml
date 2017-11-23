@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/background">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.1"
+        android:background="#00000000"
+        android:src="@drawable/logo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edttxtcadastro"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:hint=" Usuário"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/allfriends"/>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxtcadastro"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:hint="Senha"
+        android:textColorHint="#FFFFFF"
+        android:padding="10dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/loginmain"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxtcadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:hint=" Nome"
+        android:textColorHint="#FFFFFF"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxtcadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:hint=" E-mail"
+        android:textColorHint="#FFFFFF"
+        android:gravity="left"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/email"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxtcadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:hint=" Data de Nascimento"
+        android:textColorHint="#FFFFFF"
+        android:gravity="left"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/cake"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtCidade"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/edttxtcadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:hint="Cidade"
+        android:textColorHint="#FFFFFF"
+        android:gravity="left"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Registrar"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:onClick="btnRegistrarClick"/>
+    </LinearLayout>

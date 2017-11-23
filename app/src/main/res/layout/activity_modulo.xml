@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingLeft="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:padding="200dp"
+            android:background="@drawable/allfriends">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:text="  Nome do usuário"
+            android:textColorHint="#FFFFFF"
+            android:gravity="left|center_vertical"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="27dp"
+        android:background="@drawable/divisorlivro2">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Selecione o Módulo"
+        android:textColorHint="#000000"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@android:color/transparent">
+
+        <ListView
+            android:id="@+id/lstModulos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Continuar"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:onClick="btnContinuarClick"
+        android:id="@+id/button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+
+    </LinearLayout>
+
+</LinearLayout>
